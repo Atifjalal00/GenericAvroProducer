@@ -1,0 +1,22 @@
+{
+  "type" : "record",
+  "namespace":"com.example",
+  "name" : "MySchema",
+  "fields" : [ {
+    "name" : "name",
+    "type" : "string",
+    "doc" : "Type inferred from '\"bharath kuamar\"'"
+  }, {
+    "name" : "age",
+    "type" : "int",
+    "doc" : "Type inferred from '35'"
+  }, {
+    "name" : "salary",
+    "type" : "double",
+    "doc" : "Type inferred from '60000.8'"
+  }, {
+    "name" : "married",
+    "type" : "boolean",
+    "doc" : "Type inferred from 'true'"
+  } ]
+}
